@@ -5,7 +5,7 @@ Description of the project
 Put pseudocode in this box:
 
 ```
-Some pseudocode here
+Some pseudocodes here
 ```
 
 # Successes
