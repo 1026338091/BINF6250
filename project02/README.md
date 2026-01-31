@@ -34,10 +34,35 @@ word_list = *s* * order + word + *E*
 
 
 
-
 import numpy as np
 
 def get_next_word(curren_word, makov_model, seed = 42):
+
+set a random seed (np.random.seed(seed))
+
+check current_word if in the markov_model ( return None if not)
+
+get the next_words(dic)
+next_words_dic = markov_model[current_word]
+
+exact the key(next_word) values(frenqucy)
+candidates = list(next_words_dict.key())
+counts = [next_words_dict[key] for key in next_words_dict]
+
+caculate total_count (sum(counts))
+
+caculate probobility : p(word) = count(word) / total_count
+probabilities = [count / total_count for count in counts]
+
+use np.random.choice to choose word
+choosen_word = np.random.choice(candidates, p = probabilities)
+
+return the output(choosen_word)
+
+
+
+
+
 
 
 
