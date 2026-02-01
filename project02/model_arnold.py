@@ -1,13 +1,10 @@
 from collections import defaultdict
-from pprint import pprint
 
 text = "one fish two fish red fish blue fish"
 
 
 def build_mmodel(text, order=1):
-    starts = ["*S*" for k in range(order)]
-    ends = ["*E*" for k in range(order)]
-    text_list = starts + text.split(" ") + ends
+    text_list = ["*S*" for k in range(order)] + text + ["*E*" for k in range(order)]
 
     model = defaultdict(lambda: defaultdict(int))
     for i in range(len(text_list) - order):
@@ -20,6 +17,4 @@ def build_mmodel(text, order=1):
 
         model[tuple(antecedent)][consequent] += 1
 
-    pprint(model)
-
-build_mmodel(text)
+    return model
