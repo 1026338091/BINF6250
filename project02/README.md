@@ -1,5 +1,10 @@
 # Introduction
-Description of the project
+This project uses the statistical method known as "markov chains" to to build a generative model for text. This model is flexible enough to handle inputs of selected types for this assignment, chiefly divided-by-line and continuous text files. Building this model gave us an opportunity to understand markov models and to work with nested python dicts as a data structure. It also allowed us to think through the considerations entailed by a generative model, specifically how to divide up the input to produce the output that we wanted (sentences).
+
+Files:
+- Please see project02.jypnb for the main project
+- See test.py for test code
+- build_model_2 is an alternate function for testing
 
 # Pseudocode
 ```python
@@ -151,7 +156,9 @@ Description of the stumbling blocks the team experienced
 Group leader's reflection on the project
 
 ## Other member
-Other members' reflections on the project
+Eric: It's interesting how varying the order of the model changes the determinism of the output. It would seem that as the order of the model approaches half the length of the input sequence, you basically get rote reproduction of the lines. Markov chains also seem inefficient from a complexity standpoint, where every possible combination of tokens is made as a separate key/vertex in the model. Cool little project.
+
+
 
 # Generative AI Appendix
 As per the syllabus
