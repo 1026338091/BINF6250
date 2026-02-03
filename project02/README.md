@@ -146,19 +146,21 @@ missing file error (except FileNotFoundError):
 
 
 # Successes
-Description of the team's learning points
+the model generated excessively long, run-on sentences for the 'Fish' dataset. We successfully resolved this by appending an end token (*e*) after terminal punctuation (., !, ?), which forced the model to stop generation at logical sentence boundaries.
 
 # Struggles
-Description of the stumbling blocks the team experienced
+Initially, punctuation attached to words created redundant states. We resolved this by implementing a preprocessing step to separate punctuation from words.
+
 
 # Personal Reflections
 ## Group Leader
-Group leader's reflection on the project
+Hongyuan Deng:I implemented a Markov Chain text generator using Python dictionaries and weighted probabilities. A key takeaway was the importance of data preprocessing—specifically tokenizing punctuation and parsing structured text—which significantly improved the model's coherence and strengthened my data manipulation skills.
 
 ## Other member
 Eric: It's interesting how varying the order of the model changes the determinism of the output. It would seem that as the order of the model approaches half the length of the input sequence, you basically get rote reproduction of the lines. Markov chains also seem inefficient from a complexity standpoint, where every possible combination of tokens is made as a separate key/vertex in the model. Cool little project.
 
 
 
+
 # Generative AI Appendix
-As per the syllabus
+No
