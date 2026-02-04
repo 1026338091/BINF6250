@@ -159,8 +159,7 @@ Hongyuan Deng:I implemented a Markov Chain text generator using Python dictionar
 ## Other member
 Eric: It's interesting how varying the order of the model changes the determinism of the output. It would seem that as the order of the model approaches half the length of the input sequence, you basically get rote reproduction of the lines. Markov chains also seem inefficient from a complexity standpoint, where every possible combination of tokens is made as a separate key/vertex in the model. Cool little project.
 
-
-
+Fardina: I found this project a bit more challenging than the previous one. It was difficult to figure out how to assign start and end states. We ran into some issues about the length of sentences and how to generate our chosen specific lengths, but my teammate helped me navigate those issues. It was also tricky to figure out how to handle punctuation. Overall, I felt that this project was a good test of my understanding of Markov chains. My teammates helped me understand the concept by breaking down the assignment into helpful psuedocode and they were very good at identifying where we were facing errors and how to tackle them.
 
 # Generative AI Appendix
 No
