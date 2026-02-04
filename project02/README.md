@@ -2,9 +2,7 @@
 This project uses the statistical method known as "markov chains" to to build a generative model for text. This model is flexible enough to handle inputs of selected types for this assignment, chiefly divided-by-line and continuous text files. Building this model gave us an opportunity to understand markov models and to work with nested python dicts as a data structure. It also allowed us to think through the considerations entailed by a generative model, specifically how to divide up the input to produce the output that we wanted (sentences).
 
 Files:
-- Please see project02.jypnb for the main project
-- See test.py for test code
-- build_model_2 is an alternate function for testing
+- Please see project02.ipynb for the main project
 
 # Pseudocode
 ```python
