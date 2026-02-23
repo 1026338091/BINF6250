@@ -37,7 +37,7 @@ Our main hurdle was the memory issue. Even with a subset we had to raise the pyt
 
 # Personal Reflections
 ## Hongyuan Deng
-Reflections on the project
+Building the De Bruijn graph framework profoundly deepened my algorithmic thinking, and I truly enjoyed collaborating with my two teammates Nicholas and Victoria. I learned a lot from their clever optimizations(for instance, replacing my slow copy.deepcopy() with an efficient for loop.) Overall, this project was a fantastic lesson in both teamwork and memory management in Python.
 
 ## Nicholas Bottomley
 Other members' reflections on the project
