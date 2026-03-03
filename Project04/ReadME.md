@@ -40,7 +40,7 @@ Our main hurdle was the memory issue. Even with a subset we had to raise the pyt
 Building the De Bruijn graph framework profoundly deepened my algorithmic thinking, and I truly enjoyed collaborating with my two teammates Nicholas and Victoria. I learned a lot from their clever optimizations(for instance, replacing my slow copy.deepcopy() with an efficient for loop.) Overall, this project was a fantastic lesson in both teamwork and memory management in Python.
 
 ## Nicholas Bottomley
-Other members' reflections on the project
+This project was another great learning experience for me in the usage of large datasets and the importance of finding a solution that is not only fast, but also spacially efficient. We were able to create a solution to the toy example relatively quickly, but the process for refactoring our code to work on the larger dataset took much more effort. As far as the elements of the program go, I struggled most with the idea of how to store the information we were pulling from the fastq file. The integration of multiple subgraphs into a larger graph was difficult to get my head around.
 
 ## Victoria Van Berlo
 I enjoyed working with Hongyuan and Nicholas for this project. Recursion is very hard for me but my group members really helped me to understand how we could implement it. I gained practical experience with class objects as well as managing and organizing the many helper functions. I also learned a lot about Python memory use and improving speed due to our efforts to get the code to run in a reasonable amount of time and for lower k-mers.
