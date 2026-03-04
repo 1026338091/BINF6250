@@ -16,7 +16,32 @@ Put pseudocode in this box:
 6. Return the score and its direction
 ```
 **Traceback**
+```
+Initialization
+1. Initialize aligned_seq1 and aligned_seq2 as empty lists
+2. Initialize i and j to maximum position
 
+Iteration
+3. While matrix[i][j] != 0:
+  	if direction is diagonal 
+      append seq1[i-1] to aligned_seq1
+      append seq2[j-1] to aligned_seq2
+      i = i - 1
+      j = j - 1 
+  	
+  	Else if direction is up
+      append seq1[i-1] to aligned_seq1
+      append gap to aligned_seq2
+      i = i - 1	
+  	
+  	Else if direction is left
+      append gap to aligned_seq1
+      append seq2[j-1] to aligned_seq2
+      j = j -1
+
+4. Reverse aligned_seq1 and aligned_seq2
+5. Return the aligned sequences as a string
+```
 
 # Successes
 Description of the team's learning points
