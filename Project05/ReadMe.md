@@ -4,8 +4,10 @@ Description of the project
 # Pseudocode
 Put pseudocode in this box:
 
+**Dynamic Scoring Strategy**
+
+**Calculate the Scoring Matrix**
 ```
-cal_score
 1. Calculate diagonal Score by adding match/mismatch score to the matrix[i-1][j-1]
 2. Calculate the up score by adding the gap penalty to the matrix[i-1][j]
 3. Calculate the left score by adding the gap penalty to the matrix[i][j-1] score in the matrix
@@ -13,6 +15,8 @@ cal_score
 5. Determine the direction corresponding to the maximum score
 6. Return the score and its direction
 ```
+**Traceback**
+
 
 # Successes
 Description of the team's learning points
