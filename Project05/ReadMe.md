@@ -5,7 +5,13 @@ Description of the project
 Put pseudocode in this box:
 
 ```
-Some pseudocode here
+cal_score
+1. Calculate diagonal Score by adding match/mismatch score to the matrix[i-1][j-1]
+2. Calculate the up score by adding the gap penalty to the matrix[i-1][j]
+3. Calculate the left score by adding the gap penalty to the matrix[i][j-1] score in the matrix
+4. Find the maximum of {0, diagonal, up, left}
+5. Determine the direction corresponding to the maximum score
+6. Return the score and its direction
 ```
 
 # Successes
