@@ -1,8 +1,7 @@
 # Introduction
-Description of the project
+This project focuses on dynamic programming through the implementation of the Smith-Waterman algorithm for local sequence alignment. The algorithm builds a scoring matrix using match, mismatch and gap penalties, where each cell is calculated from the values above, left and diagonally above-left. After filling the matrix, the highest score is identified and a traceback step is performed to reconstruct the optimal local alignment between the sequences. 
 
 # Pseudocode
-Put pseudocode in this box:
 
 **Dynamic Scoring Strategy**
 ```
@@ -72,10 +71,11 @@ Iteration
 ```
 
 # Successes
-Description of the team's learning points
+Each member of our team had prior exposure to the Smith-Waterman algorithm which made it easier for us to understand the concepts of the project. Handling the scoring, traceback directions and tracking the highest score was more straightforward for us because of this. Overall, we were able to implement the algorithm efficiently and it reinforced our understanding of the concept. 
+
 
 # Struggles
-Description of the stumbling blocks the team experienced
+Compared to the previous projects this one felt more straightforward conceptually. The idea of local alignment was clear to us which reduced confusion during implementation. We just had to be careful with indexing details and matrix boundaries. Overall, this assignment was relatively more simple and straightforward and we were able to implement it without too many obstacles or struggles.
 
 # Personal Reflections
 ## Group Leader
@@ -84,5 +84,7 @@ Group leader's reflection on the project
 ## Other member
 Chantera - Both Hongyuan and Meghana were great to work with. As we all have implemenmted this particular algorithm prior to this class, implementation seemed straight forward. I think it gave me more time to digest dynamic programming conceptually.
 
+Meghana - Personally, I found this concept easier than the other projects because I had previous experience with dynammic programming. This background helped me focus more on implementing the algorithm efficiently and the actual coding aspect of the project instead of spending more time trying to understand the theory.
+
 # Generative AI Appendix
-As per the syllabus
+No
