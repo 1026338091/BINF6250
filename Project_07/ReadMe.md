@@ -104,7 +104,7 @@ def recover_string(bwt_string: str,
 ```
 
 # Successes
-Description of the team's learning points
+Our team successfully implemented a functional BWT and FM-index matching engine in Python. A major learning point was mastering the memory efficiency of Suffix Arrays and LF mapping over naive matrix rotations for genomic data. Seamlessly integrating individual modules—from backward search to run-length encoding—greatly sharpened our algorithmic logic coding skills.
 
 # Struggles
 We struggled a little trying to understand how the program should use all the functions in one flow. 
@@ -112,10 +112,10 @@ We also struggled a lot with indexing, but being able to visualize the trace wit
 
 # Personal Reflections
 ## Group Leader
-Group leader's reflection on the project
+This project was a significant personal milestone for me, we successfully deconstructing and integrating complex FM-index algorithms into functional Python code was incredibly empowering. It deeply solidified my algorithmic thinking.
 
 ## Victoria Van Berlo
 This project was a lot of fun and also frustrating. Our group met a bit late to start so I was able to spend some extra time in the beginning getting comfortable with the easier functions before we met up to discuss the more tricky parts. The indexing tripped me up a lot and I did a lot of printing out matrices to visually track the index progression. Following the provided outline of the functions was also very helpful for creating modular functions that didn't rely on the others to work. I also created the recover_string() function because I felt like it was lacking from run_length_decode().
 
 # Generative AI Appendix
-As per the syllabus
+No
