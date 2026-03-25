@@ -249,6 +249,11 @@ if __name__ == "__main__":
     print("Original string:", original_string)
     print(f"Time to recover: {end - start:.6f}s")
 
+    print()
+    query = "TCT"
+    matches = find_match(query, test)
+    print(f"Match position for '{query}':", matches)
+
 ###Encoded: T1$1G1T2C1T2A1C1
 ###Time to encode: 0.000008s
 
@@ -267,3 +272,5 @@ if __name__ == "__main__":
 
 ###Original string: ATTCTTGCT
 ###Time to recover: 0.000114s
+
+### Match position for 'TCT': [2]
