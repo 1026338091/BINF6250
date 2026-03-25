@@ -117,5 +117,8 @@ This project was a significant personal milestone for me, we successfully decons
 ## Victoria Van Berlo
 This project was a lot of fun and also frustrating. Our group met a bit late to start so I was able to spend some extra time in the beginning getting comfortable with the easier functions before we met up to discuss the more tricky parts. The indexing tripped me up a lot and I did a lot of printing out matrices to visually track the index progression. Following the provided outline of the functions was also very helpful for creating modular functions that didn't rely on the others to work. I also created the recover_string() function because I felt like it was lacking from run_length_decode().
 
+## Thu Thu Han
+This project was quite challenging for me in a lot of ways. This week I decided to focus on memory efficiency with my implementation by using generator expressions, implementing Counter module and avoiding the O(n²) memory usage when possible while also tracking the encoding and decoding process so that the Burrows Wheeler here can handle bigger sequences. At first I used the Numpy Module in my implementation and it resutled in signifincatly more time than it should so I scratched that off my list. This week even though I understood the algorithm, implementing the decoding process and trying to visualize it took me a little more time than I thought as I was getting index errors as well. I tried not to stick to the jupiter notebook but with the given time I tried to do the best I can. But it was quite rewarding for me to finish where I am now as I think I really got the main algorithm behind data compression. 
+
 # Generative AI Appendix
 No
