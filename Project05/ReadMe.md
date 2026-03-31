@@ -79,7 +79,7 @@ Compared to the previous projects this one felt more straightforward conceptuall
 
 # Personal Reflections
 ## Group Leader
-Group leader's reflection on the project
+Implementing the Smith-Waterman algorithm from scratch was a major technical breakthrough for me. Bridging my agricultural background with newly acquired coding skills, I successfully translated complex dynamic programming and traceback logic into functional Python. This project solidified my algorithmic foundation and gave me the confidence to tackle real-world computational biology challenges.
 
 ## Other member
 Chantera - Both Hongyuan and Meghana were great to work with. As we all have implemenmted this particular algorithm prior to this class, implementation seemed straight forward. I think it gave me more time to digest dynamic programming conceptually.
